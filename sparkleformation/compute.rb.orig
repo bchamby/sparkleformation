@@ -8,7 +8,7 @@ SparkleFormation.new(:compute, :provider => :aws) do
     sparkle_flavor do
       type 'String'
       default 't2.micro'
-      allowed_values ['t2.micro']
+      allowed_values ['t2.micro', 't2.small']
     end
   end
 
